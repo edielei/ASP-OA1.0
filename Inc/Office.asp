@@ -1,0 +1,4 @@
+<!--#include file="TxlCse.asp"--><h3>个人办公</h3>
+<span style="display:block;"><a href="Office/Index.asp" target="mkj">工作计划</a></span><span style="display:block;"><a href="Office/Gzzj.asp" target="mkj">工作总结</a></span><span style="display:block;"><a href="Office/Dbsy.asp" target="mkj">待办事宜</a></span>
+<h3>通讯录</h3>
+<span><a href="Txl/Nb.asp" target="mkj">内部通讯录</a></span><span><a href="Txl/Bsc.asp" target="mkj">办事处通讯录</a><%if Easp.db.RT("Users","uname='"&Easp.Cookie("uinfo>uname")&"'","istxl")=True then%>| <a href="Txl/BscGl.asp" target="mkj">管理</a><%End if%></span><span><a href="Txl/Kh.asp" target="mkj">客户通讯录</a><%if Easp.db.RT("Users","uname='"&Easp.Cookie("uinfo>uname")&"'","istxl")=True then%>| <a href="Txl/KhGl.asp" target="mkj">管理</a><%End if%></span>

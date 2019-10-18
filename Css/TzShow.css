@@ -1,0 +1,64 @@
+body{
+	color:#48795B;
+	margin:0;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+a{color:#48795B;text-decoration:none;}
+a:hover{text-decoration:underline;}
+img{border:none;}
+td{font-size:12px;}
+.dh{
+	width:98%;
+	margin:5px auto 0;
+	font-family:'\5B8B\4F53';
+}
+.dh img{vertical-align:middle;}
+.ta{width:98%;margin:0 auto; border-collapse:collapse;}
+.ta td{border-width:1px 1px 2px;border-color:#DDD;border-style:solid;padding:8px;}
+/* 回复帖子 */
+.hf{width:98%;margin:12px auto 20px; border-collapse:collapse;}
+.hf td{border-width:1px 1px 1px;border-color:#DDD;border-style:solid;padding:8px;}
+/* 帖子 */
+.tz{
+	border-collapse:collapse;
+	width:98%;
+	margin:0 auto;
+}
+.tz td{
+	font-size:12px;
+	line-height:22px;
+	padding:5px 8px;
+	border:1px #DDD solid;
+	border-width:0 1px;
+}
+.tz td img{max-width:570px}
+.tz td.face,.tz td.nr{border-width:1px 1px 0;border-color:#DDD;border-style:dashed solid solid;}
+.tz td.face,.tz td .nr{border-bottom:none;}
+.nr img{vertical-align:middle;}
+.face img{border:1px #DDD solid;padding:4px;background:#FFF;}
+
+.ke-container td{border:none;padding:0;}
+
+
+/* 分页 */
+.page{position:relative;width:98%;margin:8px auto;text-align:right;font-family:Tahoma, Geneva, sans-serif;}
+.page span,.page a{display:inline-block;padding:4px 6px;border:1px #DDD solid;font-family:'\5B8B\4F53';margin:0;}
+.page span.current{background:#B9EDCE;}
+.page a:hover{background:#B9EDCE;}
+.page input{border:1px #b7c7be solid;height:14px;}
+.page div{position:absolute;left:0;}
+.page div a{border:none;background:none;padding:0;}
+.page div a:hover{border:none;background:none;padding:0;}
+
+.btn {
+	width:70px;
+	height:20px;
+	margin-top:5px;
+	font-size:12px;
+	font-family:'宋体';
+	background:#84dba8;
+	border:1px #55b47a;
+	color:#345a40;
+	padding:2px 0;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta charset="UTF-8">
+<title>Reg</title>
+<style type="text/css">
+html, body {
+	overflow: hidden;
+}
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+.td{
+	height:28px;
+	line-height:28px;
+}
+.srk{
+	height:18px;
+	width:190px;
+	line-height:18px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#3E3E3E #D2D1CD #D2D1CD #3E3E3E;
+}
+.btn {
+	width:45px;
+	height:20px;
+	margin-top:3px;
+	font-size:12px;
+	font-family:'宋体';
+	background:#84dba8;
+	border:1px #55b47a;
+	color:#345a40;
+}
+em{color:#F00;}
+</style>
+<link rel="stylesheet" href="../Js/skins/aero.css">
+<script src="../Js/jQuery.js"></script>
+<script src="../Js/vd.js"></script>
+<script src="../Js/artDialog.js"></script>
+<script src="../Js/artDialog.iframeTools.js"></script>
+<script src="Js/Reg.js"></script>
+</head>
+<body>
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+	<td class="td" align="right">工　号：</td>
+	<td class="td"><input id="gh" class="srk"> <em title="必填项">*</em></td>
+</tr>
+  <tr>
+    <td class="td" align="right">用户名：</td>
+    <td class="td"><input id="uname" class="srk" /> <em title="必填项">*</em></td>
+  </tr>
+  <tr>
+    <td class="td" align="right">密　码：</td>
+    <td class="td"><input type="password" class="srk" id="upwd" /> <em title="必填项">*</em></td>
+  </tr>
+  <tr>
+    <td class="td" align="right">确定密码：</td>
+    <td class="td"><input type="password" class="srk" id="upwd2" /> <em title="必填项">*</em></td>
+  </tr>
+  <tr>
+    <td class="td" align="right">真实姓名：</td>
+    <td class="td"><input id="zname" class="srk" /> <em title="必填项">*</em></td>
+  </tr>
+  <tr>
+    <td class="td" align="right">密码问题：</td>
+    <td class="td"><input id="wt" class="srk" /> <em title="必填项">*</em></td>
+  </tr>
+  <tr>
+    <td class="td" align="right">密码答案：</td>
+    <td class="td"><input id="da" class="srk" /> <em title="必填项">*</em></td>
+  </tr>
+  <tr>
+    <td class="td" align="right">电子邮箱：</td><td class="td"><input id="email" class="srk"> <em title="必填项">*</em></td>
+  </tr>
+  <tr>
+    <td class="td">&nbsp;</td>
+    <td class="td"><input id="tj" type="submit" value="确定" class="btn" /> <input type="button" value="取消" class="btn" onclick="art.dialog.open.api.close()" /></td>
+  </tr>
+</table>
+</body>
+</html>

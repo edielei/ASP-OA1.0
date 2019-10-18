@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<email>
+	<host>smtp.email.com</host>
+	<user>user@email.com</user>
+	<pwd>password</pwd>	
+</email>

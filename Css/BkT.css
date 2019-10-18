@@ -1,0 +1,27 @@
+body{
+	color:#48795B;
+	margin:0;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+a{color:#48795B;text-decoration:none;}
+a:hover{text-decoration:underline}
+img{
+	border:none;
+	vertical-align:middle;
+}
+.dh{
+	width:98%;
+	margin:5px auto 0;
+	font-family:'\5B8B\4F53';
+}
+.table{width:98%;margin:8px auto 0;border-collapse:collapse;font-size:12px;}
+.table th{color:#345a40;padding:0 2px;background:url(../Images/AM_th.png) repeat-x;height:24px;border:1px #55B47A solid;border-width:1px 0}
+.table th a{color:#345a40;}
+.table td{
+	padding:4px 3px;
+	border-bottom:1px #DDD solid;
+	line-height:16px;
+}
+.page{width:98%;margin:0 auto;text-align:right;font-family:Tahoma, Geneva, sans-serif;line-height:24px;}
+.page input{border:1px #b7c7be solid;height:14px;}

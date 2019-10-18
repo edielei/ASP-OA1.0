@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta charset="UTF-8">
+<title>取回密码</title>
+<style type="text/css">
+html, body {
+	overflow: hidden;
+}
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+.srk{
+	height:18px;
+	width:190px;
+	line-height:18px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#3E3E3E #D2D1CD #D2D1CD #3E3E3E;
+}
+.btnss {
+	height:20px;
+	margin:3px 0 0 0;
+	font-size:12px;
+	font-family:'宋体';
+	background:#84dba8;
+	border:1px #55b47a;
+	color:#345a40;
+}
+#tj{padding:2px 3px;}
+em{color:#F00;}
+.next{display:none;}
+</style>
+<link rel="stylesheet" href="../Js/skins/aero.css">
+<script src="../Js/jQuery.js"></script>
+<script src="../Js/vd.js"></script>
+<script src="../Js/artDialog.js"></script>
+<script src="../Js/artDialog.iframeTools.js"></script>
+<script>
+$(function(){
+	$('#uname').focus();
+	$('#next').click(function(){
+		var uname=$('#uname').vd('请输入用户名！',1);if(!uname){return}
+		$.post('../C/Wt.asp','uname='+uname,function(a){
+			if(a=='Err'){
+				alert('此用户不存在！');
+				art.dialog.open.api.close();
+				return false;
+			}
+			$('#wt').val(a);
+			$('div:first').hide();
+			$('.next').show();
+			$('#da').select();
+		});
+	});
+	$('#da').keydown(function(e){
+		if(e.keyCode==13){
+			$('input:last').triggerHandler('click');
+			return false;
+		}
+	});
+	var s=$('#tj');
+	s.click(function(){
+		var da=$('#da').vd('请输入密码答案！',1);if(!da){return}
+		var uname=encodeURIComponent($.trim($('#uname').val()));
+		$.post('../C/Qhmm.asp','uname='+uname+'&da='+da,function(a){
+			if(a=='Err'){
+				alert('密码答案输入错误！');
+				$('#da').select();
+				return false;
+			}
+			window.parent.upwd.value=a;
+			art.dialog.open.api.hide();			
+			art.dialog.through({
+				content:'登录密码已发到你的电子邮箱<br /><br />请注册查收！',
+				lock:true,
+				icon:'succeed',
+				ok:true,
+				close:function(){
+					art.dialog.open.api.close();
+					art.dialog.close();
+				}
+			});
+		});
+	});
+});
+</script>
+</head>
+<body>
+<div id="one">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="43" valign="bottom">用户名：</td>
+		<td height="43" valign="bottom"><input class="srk" id="uname" /> <em title="必填项">*</em></td>
+	</tr>
+	<tr height="30">
+		<td valign="bottom">&nbsp;</td><td valign="bottom"><input type="submit" class="btnss" id="next" value="下一步" /></td>
+	</tr>
+</table>
+</div>
+<div class="next">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr><td height="30" valign="bottom">密码问题：</td><td height="30" valign="bottom"><input class="srk" id="wt" readonly="readonly" /></td></tr>
+	<tr><td height="30" valign="bottom">密码答案：</td><td height="30" valign="bottom"><input class="srk" id="da" /> <em title="必填项">*</em></td></tr>
+	<tr><td height="30" valign="bottom">&nbsp;</td><td height="30" valign="bottom"><input type="button" class="btnss" id="tj" value="确定" /></td></tr>
+</table>
+</div>
+</body>
+</html>

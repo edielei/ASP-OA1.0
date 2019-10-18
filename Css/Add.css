@@ -1,0 +1,71 @@
+body {
+	margin:0;
+	padding:0;
+	color:#48795B;
+	font-size:12px;
+	background:#FFF url(../Images/AM_s3.png) repeat-x;
+}
+img{border:none;}
+a {
+	color:#48795B;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+td{font-size:12px;}
+iframe{border:none;}
+select,option{font-size:12px;border:1px #B7C7Be solid;}
+.table {
+	width:98%;
+	font-size:12px;
+	margin:10px auto 0;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.th {
+	color:#345A40;
+	height:24px;
+	line-height:24px;
+	background:#89DDAB url(../Images/AM_th.png) repeat-x;
+	border:1px #55B47A solid;
+	text-align:left;
+}
+.th a {
+	color:#345A40;
+	text-decoration:none;
+}
+.th a:hover {
+	text-decoration:underline;
+}
+.th img {
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	margin:0 4px;
+}
+.thbt {
+	font-weight:700;
+	background:#E9FAEF;
+}
+.td {
+	height:24px;
+	padding:2px 2px;
+	border-bottom:1px #DDD dashed;
+}
+.td img{vertical-align:middle;}
+
+.input{
+	border:1px #B7C7Be solid;
+}
+.btn {
+	width:40px;
+	height:20px;
+	margin-top:3px;
+	font-size:12px;
+	font-family:'宋体';
+	background:#84dba8;
+	border:1px #55b47a;
+	color:#345a40;
+	padding:2px 0;
+}
+em{color:#F00;}

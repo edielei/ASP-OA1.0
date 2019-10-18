@@ -1,0 +1,30 @@
+html {
+	overflow:hidden;
+}
+a{color:#48795b;text-decoration:none;}
+a:hover{text-decoration:underline}
+body {
+	margin:0;
+	color:#48795B;	
+	background:#E9FAEF;
+	font-size:12px;
+	padding:0;
+}
+pre, h3 {
+	margin:0;
+	padding:0;
+}
+img {
+	border:none;
+}
+table{
+	border-collapse:collapse;
+}
+.layout:after {
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+em{color:#F00;}

@@ -1,0 +1,68 @@
+html, body {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body{
+	color:#48795B;
+	margin:0;
+	padding:0;
+	background:#FFF url(../Images/AM_s3.png) repeat-x;
+}
+a {
+	color:#48795B;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+p{
+	margin:0;
+}
+#top{
+	height:45px;
+	line-height:45px;
+	font-size:14px;
+	text-align:center;
+	font-weight:700;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.hx{
+	position:relative;
+	height:32px;
+	line-height:32px;
+	background:#F1F6F3;
+	border-width:1px 0;
+	border-color:#B7C7BE;
+	border-style:solid;
+	font-size:12px;
+	text-align:center;
+	vertical-align:middle;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.hx img{vertical-align:middle;}
+.back{
+	position:absolute;
+	left:5px;
+	top:0px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#nr{
+	color:#333;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:15px 10px;
+	line-height:22px;
+}
+#nr img{vertical-align:middle;margin-right:3px;}
+@media print{
+	body{
+		color:#000;
+		background:none;
+	}
+	a{
+		color:#000;
+	}
+	.hx,.back{border:none;background:none;}
+	.gg,.back,.dy{display:none;}
+	#nr{color:#000;font-size:14px;}
+}
