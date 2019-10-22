@@ -2,7 +2,7 @@
 
 ## 功能介绍
 
-* 我的办公桌
+* **我的办公桌**
   * 公司公告
   * 政策法规
   * 资源共享
@@ -11,13 +11,13 @@
   * 考勤登记
   * 意见信箱
 
-* 人力资源
+* **人力资源**
   * 员工一览
   * 新增员工
   * 离职员工
   * 退休员工
 
-* 企业社区
+* **企业社区**
   * 讨论区
     * 查看帖子
     * 发布帖子
@@ -28,19 +28,19 @@
     * 发布投票
     * 投票管理
 
-* 个人办公
+* **个人办公**
   * 工作计划
   * 工作总结
   * 待办事宜
 
-* 我的邮箱
+* **我的邮箱**
   * 写邮件
   * 草稿箱
   * 收件箱
   * 发件箱
   * 垃圾箱
 
-* 系统管理
+* **系统管理**
   * 邮件设置（需安装jmail组件，用于取回密码使用）
   * 单位管理
   * 部门管理
@@ -53,18 +53,18 @@
 
 ## jQuery
 
-> 　　**jQuery** 是一个快速、简洁的JavaScript框架，是继Prototype之后又一个优秀的JavaScript代码库（或JavaScript框架）。jQuery设计的宗旨是“write Less，Do More”，即倡导写更少的代码，做更多的事情。它封装JavaScript常用的功能代码，提供一种简便的JavaScript设计模式，优化HTML文档操作、事件处理、动画设计和Ajax交互。
+> **jQuery** 是一个快速、简洁的JavaScript框架，是继Prototype之后又一个优秀的JavaScript代码库（或JavaScript框架）。jQuery设计的宗旨是“write Less，Do More”，即倡导写更少的代码，做更多的事情。它封装JavaScript常用的功能代码，提供一种简便的JavaScript设计模式，优化HTML文档操作、事件处理、动画设计和Ajax交互。
 
 ### ASP
 
-> 　　**ASP** 即 **Active Server Pages**，是Microsoft公司开发的服务器端脚本环境，可用来创建动态交互式网页并建立强大的web应用程序。当服务器收到对ASP文件的请求时，它会处理包含在用于构建发送给浏览器的HTML（Hyper Text Markup Language，超文本置标语言）网页文件中的服务器端脚本代码。除服务器端脚本代码外，ASP文件也可以包含文本、HTML（包括相关的客户端脚本）和com组件调用。
+> **ASP** 即 **Active Server Pages**，是Microsoft公司开发的服务器端脚本环境，可用来创建动态交互式网页并建立强大的web应用程序。当服务器收到对ASP文件的请求时，它会处理包含在用于构建发送给浏览器的HTML（Hyper Text Markup Language，超文本置标语言）网页文件中的服务器端脚本代码。除服务器端脚本代码外，ASP文件也可以包含文本、HTML（包括相关的客户端脚本）和com组件调用。
 
 ### EasyASP
 
-> 　　**EasyASP** 是一个简单方便的用来快速开发ASP程序的类库。EasyASP 包含完善的全参数化查询多数据库操作、Json数据生成与解析、无组件压缩解压、各种字符串及日期处理函数、动态数组处理、文件系统处理、远程文件及XML文档处理、内存缓存和文件缓存处理、模板引擎等等丰富的功能。而为了解决ASP调试不方便的问题，EasyASP 推出了独创的控制台调试功能以及丰富的异常信息显示，能让你开发 ASP 程序时最大程度的从错误调试的纷繁中解放出来。EasyASP 目前提供下载的是VBScript版本。
+> **EasyASP** 是一个简单方便的用来快速开发ASP程序的类库。EasyASP 包含完善的全参数化查询多数据库操作、Json数据生成与解析、无组件压缩解压、各种字符串及日期处理函数、动态数组处理、文件系统处理、远程文件及XML文档处理、内存缓存和文件缓存处理、模板引擎等等丰富的功能。而为了解决ASP调试不方便的问题，EasyASP 推出了独创的控制台调试功能以及丰富的异常信息显示，能让你开发 ASP 程序时最大程度的从错误调试的纷繁中解放出来。EasyASP 目前提供下载的是VBScript版本。
 
-> 作者 : coldstone (coldstone[at]qq.com)<br>
-> 官网 : http://www.easyasp.cn<br>
+> 作者 : coldstone (coldstone[at]qq.com)  
+> 官网 : http://www.easyasp.cn  
 > GIT : https://git.coding.net/coldstone/easyasp.git
 
 ### ……等等
